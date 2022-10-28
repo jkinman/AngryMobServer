@@ -29,7 +29,7 @@ steps:
         "--region",
         "${_REGION}",
         "--image",
-        "${_REGISTRY_URL}/$PROJECT_ID/${_REGISTRY}/angrymob:$SHORT_SHA",
+        "${_REGISTRY_URL}/$PROJECT_ID/${_REGISTRY}/angrymob",
         "--port",
         "3000",
         "--allow-unauthenticated",
